@@ -1,0 +1,25 @@
+@mixin media-in($point) 
+  @each $device, $size in $breakpoint
+    @if $point == $device
+      @media (min-width: $size)
+        @content
+
+@mixin full-size
+  height: 100%
+  width: 100%
+
+@mixin flex($dir: auto)
+  display: flex
+  flex-direction: $dir
+    
+$max: 8
+$setoff: 0.5
+@mixin list-loop($class, $style) 
+  $i: 0
+  @while $i <= $max 
+    #{$class + $i} 
+      #{$style}: #{$i/2 + rem}
+    $i: $i + ($setoff*2)
+
+//list looping margin dll
+@include list-loop('.mt', 'margin-top')

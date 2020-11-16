@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons&display=swap')
+
+// Core
+@import core/variabels
+@import core/mixins
+@import core/helpers
+
+// Components
+@import components/navbar
+@import components/card
+@import components/input-group
+
+.search-bar
+    @include flex
+    justify-content: center
+    .input-group
+        width: 80%
+
+footer
+    display: flex
+    justify-content: center
+
+.list-movie
+    @include flex
+    padding-left: 5%
+    padding-right: 5%
+    flex-wrap: wrap
+    .movie-item
+        margin-left : 1%
+        margin-top : 2%
+        overflow: hidden 
+        width: 100%
+        @include media-in(tablet)
+            width: 48%
+            margin-top : 1%
+            font-size: 0.8rem
+        @include media-in(desktop)
+            width: 24%
+            margin-top : 1%
+        box-sizing: border-box
+    .movie-item__header
+        position: relative
+        .movie-item__header__poster
+            width: 100%
+        .movie-item__header__rating
+            position: absolute
+            padding: 8px
+            bottom: 20px
+            left: 0
+            display: inline-block
+            background-color: black
+            color: white
+    .movie-item__content
+        padding: 4px
+    
+

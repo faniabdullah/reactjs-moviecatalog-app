@@ -1,0 +1,40 @@
+.input-group
+            position: relative
+            &:focus-within
+                .input-icons
+                    color: blue
+            .input-icons
+                vertical-align: middle
+                position: absolute
+                top: 18px
+                left: 2px
+                line-height: 0px
+                font-size: 1.3rem
+                padding: 10px
+            .input-area
+                width: 100%
+                outline: none
+                border-bottom:  1px solid var(--textColor)
+                padding: 16px 16px 16px 35px
+                font-size: 18px
+                color: var(--textColor)
+                background-color: var(--bgInput)
+                &:valid + .label
+                    top: -8px
+                    padding: 0 10px
+                    font-size: 0.8rem
+                    color: #8d8d8d
+                &:focus
+                    border-bottom:  2px solid royalblue
+                    border-radius: 5px
+            .label
+                transition: all .3s
+                position: absolute
+                top: 1rem
+                left: 2.8rem
+                background: var(--bgInput)
+            .input-area:focus + .label
+                top: -8px
+                padding: 0 2px
+                font-size: 14px
+                color: royalblue
