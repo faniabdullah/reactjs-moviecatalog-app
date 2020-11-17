@@ -14,7 +14,7 @@ class ItemMovie extends React.Component {
           </div>
         </div>
         <div className="movie-item__content">
-          <h3 className="movie__title"><a href="${`/#/detail/${movie.id}`}">{movie.title || '-'}</a></h3>
+          <h3 className="movie__title"><a href="#">{movie.title || '-'}</a></h3>
           <p>{movie.overview || '-'}</p>
         </div>
       </div>
