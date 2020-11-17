@@ -9,7 +9,17 @@ class ExploreMovie extends React.Component {
     super(props);
     this.state = {
       data: [],
+      filterText: '',
     };
+    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+  }
+
+  async handleFilterTextChange(filterText) {
+    const movieSearh = await TheMovieDbSource.searchMovies(filterText) || await TheMovieDbSource.nowPlayingMovies();
+    this.setState({
+      filterText: filterText,
+      data: movieSearh,
+    });
   }
 
   async componentDidMount() {
@@ -19,7 +29,9 @@ class ExploreMovie extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <SearchBar />
+        <SearchBar
+          onFilterTextChange={this.handleFilterTextChange}
+        />
         <ListMovie
           movies = {this.state.data}
         />
