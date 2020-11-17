@@ -9,7 +9,6 @@ class ExploreMovie extends React.Component {
     super(props);
     this.state = {
       data: [],
-      inStockOnly: false,
     };
   }
 
