@@ -9,6 +9,7 @@
 @import components/navbar
 @import components/card
 @import components/input-group
+@import components/set-mode
 
 .search-bar
     @include flex
@@ -23,7 +24,7 @@ footer
     justify-content: center
     p
         a
-            color: #db0000
+            color: var(--primary)
 
 
 .list-movie
@@ -61,7 +62,7 @@ footer
         padding: 4px
         h3
             a
-                color: #db0000
+                color: var(--primary)
                 text-decoration: none
         p
             overflow: hidden
