@@ -8,6 +8,11 @@ const CONFIG = {
   DATABASE_NAME: 'movie-catalogue-database',
   DATABASE_VERSION: 1,
   OBJECT_STORE_NAME: 'movies',
+  CACHE_NAME: {
+    prefix: 'movie-catalogue',
+    suffix: 'v1',
+    precache: 'app-shell',
+  },
 };
 
 export default CONFIG;
