@@ -1,8 +1,5 @@
 # reactjs-moviecatalog-app
-Movie Catalog React 'The Movie Database' (TMDb) Apps
 
-
-# TMDb Movie Search
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-appp/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/faniabdullah/reactjs-moviecatalog-app.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-app/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/faniabdullah/reactjs-moviecatalog-app.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-app/network)
