@@ -7,7 +7,7 @@
 
 The moviecatalog-app [React](http://facebook.github.io/react/index.html), loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 <div>
-<img src="https://i.imgur.com/DrnDKAe.gif?raw=true"  alt="demo app"    
+<img src="https://i.imgur.com/DrnDKAe.gif"    
         style="margin-right: 10px;"  >
 </div>
 
