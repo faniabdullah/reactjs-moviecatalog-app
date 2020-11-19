@@ -6,9 +6,10 @@
 [![Mentioned in Awesome React](https://awesome.re/mentioned-badge.svg)](https://github.com/enaqx/awesome-react)
 
 The moviecatalog-app [React](http://facebook.github.io/react/index.html), loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
-
-![](https://i.imgur.com/DrnDKAe.gif)
-
+<div>
+<img src="https://i.imgur.com/DrnDKAe.gif"  alt="demo app"    
+        style="margin-right: 10px;"  >
+</div>
 ## Demo
 [TMDb Movie Search - Live DEMO](https://faniabdullah.github.io/reactjs-moviecatalog-app/)
 
