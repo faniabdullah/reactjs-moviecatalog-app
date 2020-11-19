@@ -7,7 +7,7 @@
 
 The moviecatalog-app [React](http://facebook.github.io/react/index.html), loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 
-![demo](https://i.imgur.com/DrnDKAe.gif)
+![demo](https://media.giphy.com/media/DGqC2V0nahH0AGabQP/giphy.gif)
 
 ## Demo
 [TMDb Movie Search - Live DEMO](https://faniabdullah.github.io/reactjs-moviecatalog-app/)
