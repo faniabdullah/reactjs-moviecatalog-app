@@ -7,7 +7,7 @@
 
 The moviecatalog-app [React](http://facebook.github.io/react/index.html), loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 
-![demo](https://media.giphy.com/media/DGqC2V0nahH0AGabQP/giphy.gif)
+<iframe src="https://giphy.com/embed/DGqC2V0nahH0AGabQP" width="480" height="261" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/DGqC2V0nahH0AGabQP">via GIPHY</a></p>
 
 ## Demo
 [TMDb Movie Search - Live DEMO](https://faniabdullah.github.io/reactjs-moviecatalog-app/)
