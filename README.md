@@ -49,10 +49,6 @@ If you would like to download the code and try it for yourself:
 3. Build project and launch: `npm run build` or `npm run start`
 4. Open your browser at: `http://localhost:8080`
 
-
-## Node.js
-Supports LTS version (v6).
-
 ## Author
 [Fani Abdullah](https://www.instagram.com/fabduul/)
 
