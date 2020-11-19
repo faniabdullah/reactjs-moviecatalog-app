@@ -1,15 +1,16 @@
 # reactjs-moviecatalog-app
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-appp/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]
 [![GitHub stars](https://img.shields.io/github/stars/faniabdullah/reactjs-moviecatalog-app.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-app/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/faniabdullah/reactjs-moviecatalog-app.svg?style=flat-square)](https://github.com/faniabdullah/reactjs-moviecatalog-app/network)
 [![Mentioned in Awesome React](https://awesome.re/mentioned-badge.svg)](https://github.com/enaqx/awesome-react)
 
 The moviecatalog-app [React](http://facebook.github.io/react/index.html), loading data via [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api).
 <div>
-<img src="https://i.imgur.com/DrnDKAe.gif"  alt="demo app"    
+<img src="https://i.imgur.com/DrnDKAe.gif?raw=true"  alt="demo app"    
         style="margin-right: 10px;"  >
 </div>
+
 ## Demo
 [TMDb Movie Search - Live DEMO](https://faniabdullah.github.io/reactjs-moviecatalog-app/)
 
@@ -57,4 +58,4 @@ Supports LTS version (v6).
 If you like this project and wish to say to say thanks - I'm always open to a coffee!
 
 ## License
-[MIT](https://github.com/faniabdullah/reactjs-moviecatalog-app/blob/main/LICENSE)
+[MIT]
